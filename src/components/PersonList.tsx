@@ -5,7 +5,7 @@ import { Button } from "@/components/ui/button";
 import { Tabs, TabsContent, TabsList, TabsTrigger } from "@/components/ui/tabs";
 import { PersonData } from "@/types/types";
 import { PersonCard } from "@/components/PersonCard";
-import { Search, UserRoundCheck, Users } from "lucide-react";
+import { Search, UserRoundCheck, Users, UserRound } from "lucide-react";
 
 interface PersonListProps {
   people: PersonData[];
